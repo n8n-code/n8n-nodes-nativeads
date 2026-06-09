@@ -3,14 +3,14 @@ import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from '
 
 export class Nativeads implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'nativeads',
+		displayName: 'Nativeads',
 		name: 'N8nDevNativeads',
 		icon: { light: 'file:./nativeads.png', dark: 'file:./nativeads.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'A Native Ads Publisher API it provides same functionality as Native Ads Publisher Account GUI',
-		defaults: { name: 'nativeads' },
+		defaults: { name: 'Nativeads' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

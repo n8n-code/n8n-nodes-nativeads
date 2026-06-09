@@ -8,7 +8,7 @@ import type {
 export class NativeadsApi implements ICredentialType {
 	name = 'N8nDevNativeadsApi';
 
-	displayName = 'nativeads API';
+	displayName = 'Nativeads API';
 
 	icon: Icon = { light: 'file:../nodes/Nativeads/nativeads.png', dark: 'file:../nodes/Nativeads/nativeads.dark.png' };
 
@@ -22,7 +22,7 @@ export class NativeadsApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'https://api.example.com',
-			description: 'The base URL of your nativeads API server',
+			description: 'The base URL of your Nativeads API server',
 		},
 		{
 			displayName: 'API Key',
